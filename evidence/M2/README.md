@@ -18,3 +18,4 @@ This directory contains evaluation benchmarks, verification records, and model c
 3. **15-Scenario Benchmark Validation:**
    - [`15_scenario_evaluation.json`](./15_scenario_evaluation.json): Side-by-side benchmark across 9 positive scenarios and 6 negative scenarios comparing Roboflow v3 (`m1_m2/3`), Roboflow v2 (`m1_m2/2`), and the local model (`yolo26n_best.pt`).
    - Results: **100% pass rate** on all 15 scenarios; **0.0% false-positive rate** on negative background images.
+

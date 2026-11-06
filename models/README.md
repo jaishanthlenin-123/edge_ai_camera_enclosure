@@ -65,3 +65,4 @@ model = YOLO('models/best.onnx', task='detect')
 # Run inference
 results = model('test.jpg', conf=0.35)
 ```
+

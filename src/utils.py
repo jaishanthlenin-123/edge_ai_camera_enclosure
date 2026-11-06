@@ -109,3 +109,4 @@ def draw_hud(frame, fps, latency_ms, detected_count, conf_threshold, model_name=
     cv2.putText(annotated, footer_text, (15, h - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (200, 200, 200), 1)
 
     return annotated
+

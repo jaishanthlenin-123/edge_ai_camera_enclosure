@@ -27,3 +27,4 @@ metrics:
     mAP50_95: 93.13
     precision: 100.00
     recall: 91.70
+

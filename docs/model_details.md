@@ -80,3 +80,4 @@ The model was evaluated against independent test sets and real-world domestic cl
 | **Raspberry Pi 5 (Quad A76 @ 2.4GHz)** | ONNX Runtime (ARM64) | FP32 | **~48–65 ms** | **~15–21 FPS** |
 | **Raspberry Pi 5 (Quad A76 @ 2.4GHz)** | PyTorch CPU (ARM64) | FP32 | **~75–95 ms** | **~10–13 FPS** |
 | **Roboflow Serverless Cloud** | Hosted REST API | Serverless | **~950–1150 ms** (network roundtrip) | ~1 FPS |
+

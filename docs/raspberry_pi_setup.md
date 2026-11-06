@@ -47,8 +47,8 @@ Clone the repository directly to your Raspberry Pi 5:
 
 ```bash
 cd ~
-git clone https://github.com/jaishanthlenin-123/M1_M2.git
-cd M1_M2
+git clone https://github.com/jaishanthlenin-123/edge_ai_camera_enclosure.git
+cd edge_ai_camera_enclosure
 ```
 
 ### Virtual Environment Setup
@@ -125,3 +125,4 @@ When the detection window is open:
 | `No module named 'picamera2'` | Virtual environment isolated from system packages | Recreate venv with `--system-site-packages` flag. |
 | Camera frame rate drops | Thermal throttling under heavy CPU load | Ensure an active cooling fan or heatsink is installed on the BCM2712 SoC. |
 | Model inference latency > 100ms | Running unoptimized PyTorch FP32 on CPU | Switch to `--model models/best.onnx` to leverage ONNX Runtime optimizations. |
+

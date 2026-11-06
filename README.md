@@ -90,8 +90,8 @@ edge-ai-camera-enclosure/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/jaishanthlenin-123/M1_M2.git
-   cd M1_M2
+   git clone https://github.com/jaishanthlenin-123/edge_ai_camera_enclosure.git
+   cd edge_ai_camera_enclosure
    ```
 
 2. **Install dependencies:**
@@ -115,8 +115,8 @@ Full step-by-step instructions are available in [docs/raspberry_pi_setup.md](doc
 sudo apt update && sudo apt install -y python3-pip python3-venv libgl1 libglib2.0-0
 
 # 2. Clone repo and create virtual environment with system site packages
-git clone https://github.com/jaishanthlenin-123/M1_M2.git
-cd M1_M2
+git clone https://github.com/jaishanthlenin-123/edge_ai_camera_enclosure.git
+cd edge_ai_camera_enclosure
 python3 -m venv --system-site-packages venv
 source venv/bin/activate
 
@@ -145,3 +145,4 @@ python3 src/detect.py --model models/best.onnx --source picam
 
 - **Model Framework:** [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
 - **Dataset Hosting & Cloud Training:** [Roboflow](https://roboflow.com)
+

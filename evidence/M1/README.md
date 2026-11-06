@@ -13,3 +13,4 @@ This directory contains the verification records and root-cause analysis for Mil
    - [`class_distribution.csv`](./class_distribution.csv): Split breakdown across train (88), valid (24), and test (12).
 3. **Correction:**
    - Ground truth annotations were cleaned and tightened locally and verified against real-world test scenes before progressing to Milestone 2.
+

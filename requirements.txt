@@ -16,3 +16,4 @@ onnxruntime>=1.16.0
 # When using a Python virtual environment on Raspberry Pi 5, create it with:
 #   python3 -m venv --system-site-packages venv
 # to inherit the system-installed picamera2 package.
+
