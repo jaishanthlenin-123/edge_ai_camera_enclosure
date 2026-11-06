@@ -1,0 +1,22 @@
+image_file,split,error_type,severity,box_w,box_h,aspect_ratio,area_ratio,crop_skin_pct,description
+IMG_1134_jpg.rf.2ef4a4b46c11185197ffd98446f6f8d7.jpg,train,CORRUPTED_LABEL_SKIN_BODY,CRITICAL,1122,180,6.23,0.0642,63.2%,Bounding box drawn across human body/arms (63.2% human skin) rather than camera enclosure.
+IMG_1076_jpg.rf.d4c371a2253cde88c900f349ac38bca6.jpg,train,SKIN_CO_OCCURRENCE,HIGH,388,687,0.56,0.0847,55.4%,Encompasses large portion of holding hand and fingers.
+IMG_1077_jpg.rf.bed5d36b7308ed96a0c585a63578d521.jpg,valid,SKIN_CO_OCCURRENCE,HIGH,447,754,0.59,0.1071,51.2%,Encompasses hand and finger region.
+IMG_1142_jpg.rf.b4cb7c8218040edc61e09e8a1d9a6798.jpg,test,SKIN_CO_OCCURRENCE,HIGH,413,161,2.57,0.0211,41.0%,Finger directly inside bounding box.
+IMG_1150_jpg.rf.9faaf2df04c60f2ef7e5f319db4bb066.jpg,train,SKIN_CO_OCCURRENCE,HIGH,288,78,3.69,0.0071,39.1%,Box is an extreme thin strip over fingers/hand edge.
+IMG_1034_jpg.rf.ca267895853527b6697e5fb3d88c7e30.jpg,train,POLYGON_SKIN_INCLUSION,MEDIUM,964,696,1.39,0.0734,39.7%,Polygon segmentation captures fingers holding edge.
+IMG_1030_jpg.rf.3de060fe4fd8d367d5c320547a2cb2e0.jpg,train,POLYGON_SKIN_INCLUSION,MEDIUM,695,636,1.09,0.0483,35.5%,Polygon segmentation captures thumb and holding fingers.
+IMG_1032_jpg.rf.a2589fc68589ef516b41656174a5c219.jpg,test,POLYGON_SKIN_INCLUSION,MEDIUM,805,823,0.98,0.0724,37.0%,Polygon segmentation includes fingers.
+IMG_1036_jpg.rf.7bd642aad3fb71786b0b30c35e57a36f.jpg,test,POLYGON_SKIN_INCLUSION,MEDIUM,757,815,0.93,0.0675,37.8%,Polygon segmentation includes fingers.
+IMG_1041_jpg.rf.c7db80ce23b9e33b297be7ac78169b54.jpg,train,POLYGON_DISTORTED_AABB,HIGH,1045,230,4.54,0.0197,14.2%,Polygon bounding box creates 4.54 aspect ratio strip.
+IMG_1039_jpg.rf.1748de81682347573b42a52f23786519.jpg,valid,POLYGON_DISTORTED_AABB,HIGH,1068,331,3.23,0.0290,18.5%,Polygon bounding box creates 3.23 aspect ratio strip.
+IMG_1044_jpg.rf.667feb9fdc9778753eb699258347061e.jpg,train,OVERSIZED_SQUARE_BOX,HIGH,767,767,1.00,0.1870,2.1%,Loose 767x767 square box capturing excessive table background.
+IMG_1045_jpg.rf.b8ac726515fb37754b7a4ba03aae13d8.jpg,train,OVERSIZED_SQUARE_BOX,HIGH,792,796,0.99,0.2004,1.3%,Loose 792x796 square box capturing excessive table background.
+IMG_1047_jpg.rf.550977986b9d95f073c9927293343b6d.jpg,train,OVERSIZED_SQUARE_BOX,HIGH,790,786,1.01,0.1974,1.8%,Loose 790x786 square box capturing excessive table background.
+IMG_1048_jpg.rf.4fecad3b03a0139c5881142069a4e257.jpg,train,OVERSIZED_SQUARE_BOX,HIGH,797,800,1.00,0.2027,3.7%,Loose 797x800 square box capturing excessive table background.
+IMG_1056_jpg.rf.39af98d67523dcde6e456deda01c77b2.jpg,train,OVERSIZED_SQUARE_BOX,HIGH,754,760,0.99,0.1822,0.8%,Loose 754x760 square box capturing excessive table background.
+IMG_1058_jpg.rf.7054335b6ecc1758e91811e7214a06ab.jpg,train,OVERSIZED_SQUARE_BOX,HIGH,764,758,1.01,0.1841,0.5%,Loose 764x758 square box capturing excessive table background.
+IMG_1050_jpg.rf.fc7868ee8fe8d5b6a48b1fb6eccfee19.jpg,valid,OVERSIZED_SQUARE_BOX,HIGH,780,773,1.01,0.1917,0.2%,Loose 780x773 square box capturing excessive table background.
+IMG_1057_jpg.rf.19dcdeda07812cfb1f9133f3b10b395d.jpg,valid,OVERSIZED_SQUARE_BOX,HIGH,834,832,1.00,0.2206,0.1%,Loose 834x832 square box capturing excessive table background.
+IMG_1128_jpg.rf.0ce5a3658f55020a262b82ab932a009e.jpg,train,UNDERSIZED_SUBCOMPONENT_BOX,MEDIUM,135,129,1.05,0.0055,4.2%,Tiny box covering only sub-aperture rather than complete enclosure.
+

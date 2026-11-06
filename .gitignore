@@ -1,0 +1,43 @@
+# Security & Secrets (NEVER COMMIT)
+.env
+.env.*
+*.env
+*.key
+credentials.json
+roboflow_key.txt
+**/.*.env
+
+# Laptop Training & Local Research Caches (Kept locally on laptop)
+raspberry_pi_enclosure_detection/
+runs/
+**/runs/
+dataset/
+**/dataset/
+*.log
+empty_ann.txt
+yolo26n.pt
+
+# Python & Environment Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# IDE & OS Files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Explicitly track trained models in models/
+!models/best.pt
+!models/best.onnx

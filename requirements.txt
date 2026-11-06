@@ -1,0 +1,18 @@
+# Edge AI & Raspberry Pi 5 Dependencies
+# Raspberry Pi Camera Enclosure Detection using YOLO26 Nano
+
+ultralytics>=8.3.0
+opencv-python>=4.8.0
+numpy>=1.23.0
+pyyaml>=6.0.0
+requests>=2.31.0
+pillow>=10.0.0
+
+# Optional: Accelerated ONNX Runtime for CPU/NPU inference on Raspberry Pi 5
+onnxruntime>=1.16.0
+
+# Note on Raspberry Pi Camera Module (CSI):
+# Picamera2 is preinstalled in Raspberry Pi OS Bookworm (64-bit).
+# When using a Python virtual environment on Raspberry Pi 5, create it with:
+#   python3 -m venv --system-site-packages venv
+# to inherit the system-installed picamera2 package.

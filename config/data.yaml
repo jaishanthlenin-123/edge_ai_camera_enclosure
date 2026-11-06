@@ -1,0 +1,29 @@
+# Roboflow Dataset & Model Configuration - Version 3
+# Project: jaishanth-s-workspace/m1_m2/3
+
+names:
+  0: RASPBERY PI CAM ENCLOSURE
+
+nc: 1
+imgsz: 640
+
+roboflow:
+  workspace: jaishanth-s-workspace
+  project: m1_m2
+  version: 3
+  model_type: yolo26n
+  license: Private
+  url: https://app.roboflow.com/jaishanth-s-workspace/m1_m2/3
+
+metrics:
+  validation:
+    mAP50: 99.28
+    mAP50_95: 93.79
+    precision: 100.00
+    recall: 96.30
+    f1: 0.981
+  test:
+    mAP50: 99.31
+    mAP50_95: 93.13
+    precision: 100.00
+    recall: 91.70
